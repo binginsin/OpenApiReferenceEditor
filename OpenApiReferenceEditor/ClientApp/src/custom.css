@@ -1,0 +1,26 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.generic-row {
+  margin-top: 5px;
+}
+
+h5 {
+  margin-top: 20px;
+}
+
+#project-row {
+  margin-bottom: 10px;
+}
