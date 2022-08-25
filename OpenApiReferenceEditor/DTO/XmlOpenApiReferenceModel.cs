@@ -5,7 +5,7 @@ namespace OpenApiReferenceEditor.DTO
 	[XmlRoot(ElementName = "OpenApiReference")]
 	public class OpenApiReferenceModel
 	{
-		[XmlElement(ElementName = "Include")]
+		[XmlAttribute(AttributeName = "Include")]
 		public string Include { get; set; }
 		[XmlElement(ElementName = "CodeGenerator")]
 		public string CodeGenerator { get; set; }
